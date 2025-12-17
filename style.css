@@ -1,0 +1,112 @@
+/* CSS Insanity */
+
+body {
+  /* background-color: #fdf6e3; */
+  color: black;
+  font-family: Verdana;
+}
+
+/* There is probably a 10x better way to do whatever the fuck I did below but whatever it works im too lazy X3*/
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+li {
+  color: white;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: #66c2ff;
+}
+
+a:hover {
+  color: #1d6290;
+}
+
+b {
+  color: white;
+}
+
+em {
+  color: white;
+}
+
+fuckingtext {
+  color: white;
+}
+
+code {
+  color: lightgreen;
+}
+
+html { /* Stole this from https://nadeko.net */
+  background-color: transparent;
+  background-image: linear-gradient(rgba(8,8,8,0.8), rgba(8,8,8,0.8)), url(/green.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: white;
+ /* margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 1100px;
+  margin: 0 auto; */
+}
+
+center { /*centers text but it still looks like shit*/ /* I really need to remove this */
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif; 
+  /* font-family: "JetBrains Mono"; */
+}
+
+/* I prefer my code overqualified actually */
+
+/* Fuck Javascipt all my homies hate javascipt*/
+
+/* Stole this from vaxry blog hheheas https://blog.vaxry.net/css/reader/readerv2.css?version=1337 */
+
+.articleFooter {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.articleReaderHeader {
+    display: block;
+    position: relative;
+    width: 50vw;
+    height: auto;
+    color: #d9d9d9;
+    margin-left: 25vw;
+    border-bottom: 1px solid #5e2721;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.articleReaderHeaderText {
+    display: inline;
+    color: #d9d9d9;
+    font-size: 1.4rem;
+}
+
+.articleFooterText {
+  text-align: center;
+}
