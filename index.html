@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>98.css Centered Window</title>
+
+    <!-- 98.css stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css@0.1.21/dist/98.css"
+    />
+
+    <style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #008080;
+
+  /* 150% zoom simulation */
+  transform: scale(2.5);
+  transform-origin: center center;
+}
+
+
+
+      body {
+        margin: 0;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #008080;
+      }
+
+      .button-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 88px);
+        gap: 6px;
+        margin-top: 10px;
+      }
+
+      .button-grid img {
+        width: 88px;
+        height: 31px;
+        image-rendering: pixelated;
+      }
+
+      image-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      image-container img {
+        max-width: 100px;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="window" style="width: 300px">
+      <div class="title-bar">
+        <div class="title-bar-text">5v12v.xyz</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+
+      <div class="window-body">
+        <p>Hey! I'm an Welsh furry named Aake, sometimes known as KenoTianli!</p>
+        <p>I like tech, music and emulation! I really like old tech. (isnt that.. obvious.. by the theme???)</p>
+        <p>You can find a spec sheet of my computers here: (not done yet)</p>
+        <p>This website isn't fully done, but i'll get back to it once I have time</p>
+        <p>Anyways, love you <a href="https://percnt.pl/">dima!</a></p>
+
+        <div class="grid-container"></div>
+
+        <div class="button-grid">
+          <a href="https://percnt.pl/"><img src="https://percnt.pl/buttons/percnt.gif" alt="percnt"></a>
+          <a href="https://cattos.xyz/c/image"><img src="https://files.catbox.moe/78ycfn.png" alt="5v12v.xyz"></a>
+          <img src="https://raining-starss.neocities.org/button%20(5).gif" alt="ive got like 5 errors on this site but thats fine im on windows">
+          <img src="https://raining-starss.neocities.org/boot%20(10).png" alt="whatbro">
+          <img src="https://files.catbox.moe/hoztvh.png" alt="bruh">
+          <img src="https://raining-starss.neocities.org/rainbow%20(2).png" alt="whatbr">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
